@@ -1,0 +1,68 @@
+*{
+  background-color: #000;
+  color: #fff;
+}
+
+h1, h2, h3, h4 {
+  background-color: #000;
+  color: #fff !important;
+}
+
+#moviesContainer, #similares {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#movieInfo {
+  padding: 1rem;
+}
+
+.moviePoster {
+  width: inherit;
+}
+
+#movieInfo2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#movieRating {
+  color: #71D074;
+  font-weight: bold;
+}
+
+#buttonSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+#trailerButton {
+  width: 100%;
+  padding: 0.2rem;
+  border-radius: 2px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+}
+
+#favoriteButton {
+  width: 100%;
+  padding: 0.2rem;
+  border-radius: 2px;
+  border: none;
+  background-color: #2B2B2B;
+  color: #fff;
+}
+
+
+
+
+/* @media (max-width: 600px) {
+  body {
+    padding: 2rem;
+  }
+} */
